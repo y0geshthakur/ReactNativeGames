@@ -10,8 +10,8 @@ const GamesDetails = (props) => {
     <Item>
       <ItemSection>
         <View style={headContainer}>
-          <Text style={headerText.text}>Name: {props.games.brand}</Text>
-          <Text style={headerText.text}>Company: {props.games.model}</Text>
+          <Text style={headerText.text}>Name: {props.games.name}</Text>
+          <Text style={headerText.text}>Company: {props.games.company}</Text>
           <Text style={headerText.text}>URL: {props.games.url}</Text>
         </View>
       </ItemSection>
